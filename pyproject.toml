@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ai-keyword-aunction-app"
+version = "0.1.0"
+description = "An Streamlit application that allows clients to aunction on difem to their liking to embed a bias/advertisement in the LLM/Diffusion model for the model's users"
+authors = ["Theskrtnerd <tvbbd2@gmail.com>"]
+license = "GNU Affero General Public License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.38.0"
+transformers = "^4.44.2"
+torch = "^2.4.1"
+sentencepiece = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
