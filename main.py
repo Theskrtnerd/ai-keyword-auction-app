@@ -4,8 +4,8 @@ import torch
 import torch.nn.functional as F
 
 # Load the pre-trained GPT-2 model and tokenizer
-tokenizer = LlamaTokenizer.from_pretrained("winglian/Llama-2-3b-hf")
-model = LlamaForCausalLM.from_pretrained("winglian/Llama-2-3b-hf")
+tokenizer = LlamaTokenizer.from_pretrained("winglian/Llama-2-3b-hfgt")
+model = LlamaForCausalLM.from_pretrained("winglian/Llama-2-3b-hfgt")
 
 # Set model to evaluation mode
 model.eval()
